@@ -50,5 +50,5 @@ systemctl start nexus
 firewall-cmd --zone=public --add-port=8081/tcp --permanent
 firewall-cmd --reload
 
-# Check Nexus status
+## Check Nexus status
 systemctl status nexus
