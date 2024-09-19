@@ -79,7 +79,7 @@ resource "aws_eks_cluster" "cluster" {
       aws_subnet.private-us-east-1b.id,
       aws_subnet.public-us-east-1a.id,
       aws_subnet.public-us-east-1b.id
-    ]
+    ] 
   }
 
   depends_on = [aws_iam_role_policy_attachment.amazon-eks-cluster-policy]
