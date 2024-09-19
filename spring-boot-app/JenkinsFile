@@ -123,7 +123,7 @@ pipeline {
       environment {
         awsAccountId = '719952576804'
         region = 'us-east-1'
-        repositoryName = 'jjtech-demo'
+        repositoryName = 'k8s-pipeline-repo'
         dockerImageTag = "${BUILD_NUMBER}"
         ecrRegistry = "${awsAccountId}.dkr.ecr.${region}.amazonaws.com"
       }
